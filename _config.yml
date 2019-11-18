@@ -4,5 +4,19 @@ email: derekwall22@gmail.com
 baseurl: ""
 url: ""
 
+
+collections:
+  illustrations:
+    output: true
+    permalink: /:collection/:path/
+     
+  photography:
+    output: true
+    permalink: /:collection/:path/
+      
+  design:
+    output: true
+    permalink: /:collection/:path/
+
 sass:
   style: compact
